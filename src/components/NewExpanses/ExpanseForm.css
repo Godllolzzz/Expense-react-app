@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.new-expanse__controls {
+  border: 5px solid rgb(69, 9, 83);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 9rem;
+  background-color: rgb(197, 99, 219);
+  margin: 1rem 0.5rem;
+}
+.new-expanse__control {
+  margin: 0.5rem;
+}
+.new-expanse__control label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.new-expanse__control input {
+  border-radius: 5px;
+  width: 8rem;
+  border-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.new-expanse__actions button {
+  height: 2rem;
+  width: 10rem;
+  background-color: rgb(69, 9, 83);
+  border-radius: 5px;
+  border-color: rgb(69, 9, 83);
+  color: white;
+  font-size: 1rem;
+  position: relative;
+  top: 1.4rem;
+  /* left: 5rem; */
+}
