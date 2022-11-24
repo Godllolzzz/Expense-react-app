@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Expense-react-app/static/css/main.53a81958.css",
+    "main.js": "/Expense-react-app/static/js/main.79c4948a.js",
+    "static/js/787.86314ff6.chunk.js": "/Expense-react-app/static/js/787.86314ff6.chunk.js",
+    "static/media/logo.svg": "/Expense-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Expense-react-app/index.html",
+    "main.53a81958.css.map": "/Expense-react-app/static/css/main.53a81958.css.map",
+    "main.79c4948a.js.map": "/Expense-react-app/static/js/main.79c4948a.js.map",
+    "787.86314ff6.chunk.js.map": "/Expense-react-app/static/js/787.86314ff6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53a81958.css",
+    "static/js/main.79c4948a.js"
+  ]
+}
