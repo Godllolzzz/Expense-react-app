@@ -15,18 +15,18 @@ const expanse = [
   {
     id: "e2",
     title: "New TV",
-    amount: 7989.49,
-    date: new Date(2021, 2, 12),
+    amount: 798.49,
+    date: new Date(2021, 4, 12),
   },
   {
     id: "e3",
     title: "Car Insurance",
-    amount: 24.67,
+    amount: 124.67,
     date: new Date(2021, 2, 28),
   },
   {
     id: "e4",
-    title: "Deva's C",
+    title: "Movies",
     amount: 200,
     date: new Date(2022, 10, 14),
   },
@@ -47,6 +47,7 @@ function App() {
   
   return (
     <React.Fragment>
+      <h1>EXPENSE RECORD</h1>
       <NewExpanses onAddExpanse={addExpanseHandler} />
       <Expanses items={expense} />
     </React.Fragment>

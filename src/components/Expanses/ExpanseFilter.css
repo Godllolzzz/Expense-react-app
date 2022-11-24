@@ -1,17 +1,20 @@
-.expanse-filter{
-    margin: 1rem;
-    background-color: rgb(197, 99, 219);
-  border: 3px solid rgb(69, 9, 83);
+.expanse-filter {
+  color: white;
+  margin: 1rem;
+  background-color: #790252;
+  border: 3px solid #790252;
   border-radius: 5px;
   padding: 0.3rem 0.5rem;
   font-weight: 700;
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: 5px 5px rgb(0, 0, 0);
 }
-.expanse-filter select{
-background-color: rgb(69, 9, 83);
-color: white;
-margin: 0.3rem;
-padding: 0.2rem;
-border: 2px solid white;
-border-radius: 5px;
+.expanse-filter select {
+  background-color: #4c0033;
+  color: white;
+  margin: 0.3rem;
+  padding: 0.2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid white;
+  border-radius: 5px;
 }

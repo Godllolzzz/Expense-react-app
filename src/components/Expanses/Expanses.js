@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import ExpanseItem from "./ExpanseItem";
 import ExpanseFilter from "./ExpanseFilter";
+import ExpanseChart from "./ExpanseChart";
 
 function Expanses(props) {
-  const [filteredYear, setFilteredYear] = useState("2022");
+  const [filteredYear, setFilteredYear] = useState("2021");
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
@@ -32,6 +33,8 @@ function Expanses(props) {
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
       />
+      <ExpanseChart expense = {filteredexpenses} />
+      
       {expenseContent}
     </div>
   );
